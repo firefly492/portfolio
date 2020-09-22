@@ -57,3 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap', '~> 5.0.0.alpha1'
 gem 'jquery-rails'
+
+group :production do
+  gem 'rails_12factor'
+end

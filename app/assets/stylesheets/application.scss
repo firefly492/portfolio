@@ -15,4 +15,8 @@
 
 @import "*";
 
-* { font-family: 'klee',sans-serif; }
+* { font-family: 'klee',sans-serif;
+
+  * {
+    box-sizing: border-box;
+  }}

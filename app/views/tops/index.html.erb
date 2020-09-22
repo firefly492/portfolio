@@ -8,34 +8,47 @@
     </nav>
 </div>
 
-<%= image_tag "sky.png", class:"img-field w-100" %>
+<%= image_tag "sky.png", :size =>'500', class:"img-field w-100" %>
 
-<div class="about m-5 pt-5 pr-5 pl-5 font-weight-bold lead" id="about-section">
-  About me
-</div>
-<div class="works m-5 pt-5 pr-5 pl-5 font-weight-bold lead" id="works-section">
-  Works
-</div>
-<div class="container container-m">
-<div class="card-deck">
-  <div class="card ml-5" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">オリジナルアプリ</h5>
-    <%= image_tag "sky.png", class:"mb-3 card-img-top" %>
-    <h6 class="card-subtitle mb-2 text-muted">mydialy</h6>
-    <p class="card-text">初めて一から作成したオリジナルアプリです。</p>
-    <a href="#" class="card-link">README</a>
+<div class="container">
+  <div class="row m-5 p-5">
+    <div class="col mx-5 mb-5">
+      <div class="about mb-5 font-weight-bold lead" id="about-section">
+        About me
+      </div>
+      <div class="works mb-5 font-weight-bold lead" id="works-section">
+        Works
+      </div>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <%= image_tag "orijinal1.png", :size =>'200x250', class:"mb-3 card-img-top" %>
+              <div class="card-body">
+                <h5 class="card-title">オリジナルアプリ</h5>
+                <p class="card-text">初めて作成したオリジナルアプリです。</p>
+                <a href="/" class="card-link">README</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <%= image_tag "furima.png", :size =>'200x250', class:"mb-3 card-img-top" %>
+              <div class="card-body">
+                <h5 class="card-title">フリマアプリ</h5>
+                <p class="card-text">スクールで作成したクローンアプリです。</p>
+                <a href="/" class="card-link">README</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="skills mb-5 font-weight-bold lead" id="skills-section">
+        Skills
+      </div>
+      <div class="contact mb-5 font-weight-bold lead" id="contact-section">
+        Contact
+      </div>
+    </div>
   </div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="skills m-5 pt-5 pr-5 pl-5 font-weight-bold lead" id="skills-section">
-  Skills
-</div>
-<div class="contact m-5 pt-5 pr-5 pl-5 font-weight-bold lead" id="contact-section">
-  Contact
 </div>
 
 <footer class="footer mt-auto text-center py-3 text-white bg-dark">

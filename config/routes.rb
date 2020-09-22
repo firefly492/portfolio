@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'tops/index'
   root to: "tops#index"
+  # resources :top, only: [:show]
 end
